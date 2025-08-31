@@ -38,4 +38,10 @@ The aim of this experiment is to demonstrate the process of **evidence acquisiti
 4.  **Acquisition:**
     * Initiate the imaging process by clicking "Start." FTK Imager will begin to create the bit-for-bit copy.
 ![alt text](<screenshot/Screenshot 2025-08-31 191648.png>)    
+
     * As the imaging progresses, FTK Imager will calculate a **hash value** (MD5 and/or SHA1) of the source data.
+  
+
+
+### Result
+The acquisition successfully produced a forensically sound image, confirmed by identical MD5 and SHA1 hash values between the source device and the final image. This verifies the data's integrity and its suitability as evidence.
